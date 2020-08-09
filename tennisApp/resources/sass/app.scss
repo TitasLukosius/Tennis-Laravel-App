@@ -1,0 +1,319 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.navbar {
+    background: #89A85C !important;
+    position: sticky !important;
+    top: 0;
+    z-index: 1;
+    box-shadow: 0 0 20px 0 #89A85C !important;
+}
+
+.navbar a {
+        color: #EAEFD8 !important;
+}
+
+.current-user-information {
+    background: #89A85C;
+    width: 50%;
+    border-radius: 40px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 20px 0 #89A85C;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.current-user-information h3 {
+    color: #EAEFD8;
+    opacity: 0.5;
+}
+
+.current-user-information p {
+    color: #EAEFD8;
+}
+
+.current-user-information a {
+    color: #EAEFD8;
+}
+
+.table-users {
+    border-collapse: collapse;
+    width: 90%;
+    box-shadow: 0 0 20px 0 darkgrey;
+}
+
+.table-users td, .table-users th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.table-users tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table-users tr:nth-child(even) a {
+    color: #89A85C;
+}
+
+.table-users tr:nth-child(odd) {
+    background-color: #E8E8E8;
+}
+
+.table-users tr:hover {
+    background-color: #ddd;
+}
+
+.table-users tr:nth-child(odd) a {
+    color: #89A85C;
+}
+
+
+.table-users th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #89A85C;
+    color: white;
+}
+
+.tennis-log {
+    width: 50px;
+    height: 40px;
+}
+
+.footer {
+    background: #89A85C;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #EAEFD8;
+}
+
+.py-4 {
+    min-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0 !important;
+}
+
+.py-4 h1 {
+    margin-bottom: 50px;
+    color: #89A85C;
+    padding-top: 50px;
+}
+
+.prof-img {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    margin-bottom: 50px;
+}
+
+.title-img {
+    background: black;
+    width: 100%;
+    //background-position: center;
+    //background-size: cover;
+    //background-repeat: no-repeat;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.title-page-info {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.match {
+    position: absolute;
+    top: 0;
+    left: 20%;
+}
+
+.title-page-info img {
+    width: 40%;
+    box-shadow: 0 0 20px 0 black;
+}
+
+.title-img img {
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+
+.title-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+
+.title-info h2 {
+    color: #89A85C;
+    padding: 30px;
+}
+
+.title-info p {
+    text-align: center;
+    color: #89A85C;
+    padding: 30px;
+    width: 30%;
+}
+
+.edit-form, .create-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 40px;
+    background-color: #89A85C;
+    padding: 40px;
+    margin-top: 20px;
+}
+
+.edit-form div, .create-form div {
+    display: flex;
+    flex-direction: column;
+}
+
+.edit-form input, .create-form input {
+    width: 200px;
+    margin-bottom: 15px;
+}
+
+.filter-players {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filter-players p {
+    margin: 10px;
+    color: #89A85C;
+}
+
+.filter-players form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filter-players form input, .filter-players form select, .filter-players form button {
+    width: 150px;
+    height: 30px;
+    margin:  10px 10px 10px 0px;
+    padding: 5px;
+}
+
+button {
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+    transition: .3s;
+}
+
+button:hover {
+    background-color: #89A85C;
+    color: white;
+}
+
+input {
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+}
+
+select {
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.invite-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 40px;
+    background-color: #89A85C;
+    padding: 40px;
+    padding-top: 0;
+    margin-top: 20px;
+}
+
+.invite-page div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.dropdown-menu-right {
+    background-color: #89A85C;
+}
+
+.card {
+    margin-top: 50px;
+    box-shadow: 0 0 20px 0 #89A85C;
+}
+
+.all-players {
+    width: 1000px;
+}
+
+.card {
+    background-color: #89A85C;
+}
+
+.card a{
+    border: 1px solid #EAEFD8;
+    background-color: #89A85C;
+    color: #EAEFD8;
+}
+
+.card button {
+    border: 1px solid #EAEFD8;
+    background-color: #89A85C;
+    color: #EAEFD8;
+}
+
+.card button:hover {
+    background-color: #EAEFD8 ;
+    color: #89A85C;
+    border: 1px solid #EAEFD8;
+}
+
+.card a:hover{
+    background-color: #EAEFD8 ;
+    color: #89A85C;
+    border: 1px solid #EAEFD8;
+    text-decoration: none;
+}
+
+.card input {
+    background-color: #EAEFD8;
+}
+
+.card label, .card-header, .card-body {
+    color: #EAEFD8;
+}
+
+
+
